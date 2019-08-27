@@ -1,6 +1,6 @@
 # Portfolio 2019
 
-This project was generated with [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#use-the-gatsby-cli).
+This project was generated with [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#use-the-gatsby-cli).\
 The main idea is to create a portfolio with Gatsby based on the online course I've done.
 
 [View project](https://jpcmf-gatsby.netlify.com/)
