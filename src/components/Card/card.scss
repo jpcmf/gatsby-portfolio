@@ -1,0 +1,17 @@
+.card {
+  margin-top: 30px;
+
+  .card-footer {
+    border-color: $body-background-color;
+  }
+
+  .card-footer-item {
+    a {
+      transition: all 300ms ease;
+
+      &:hover {
+        color: $body-background-color;
+      }
+    }
+  }
+}

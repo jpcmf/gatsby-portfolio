@@ -1,0 +1,14 @@
+// overwrite bulma variables
+// -------------------------
+
+$family-primary: 'Droid Sans Mono for Powerline';
+$body-background-color: #171717;
+$text: #d4d4d4;
+$link: coral;
+$link-hover: rgba(coral, .4);
+$navbar-background-color: #202021;
+$navbar-item-color: $text;
+$navbar-item-hover-background-color: $body-background-color;
+$card-background-color: #292929;
+$tag-color: $text;
+$tag-background-color: $navbar-background-color;
