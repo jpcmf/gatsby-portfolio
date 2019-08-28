@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
@@ -13,9 +13,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export const queryImage = graphql`
   query {
-    project1: file(relativePath: { eq: "jpcmf-2019.jpg" }) {
+    project1: file(relativePath: { eq: "icon-code.png" }) {
       childImageSharp {
-        fixed(width: 96, height: 96) {
+        fixed(width: 128, height: 128) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -68,10 +68,23 @@ const Projects = ({ data }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Compacto Records Contacts <FontAwesomeIcon icon={faArrowRight} size="1x" />
+            CR Contact List <FontAwesomeIcon icon={faArrowRight} size="1x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://consultacnpj.netlify.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consulta CNPJ <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </li>
       </ul>
+      <hr />
+      <p className="has-text-centered">
+        <small>Back to <Link to="/">Home</Link>.</small>
+      </p>
     </section>
   </Layout>
 )
