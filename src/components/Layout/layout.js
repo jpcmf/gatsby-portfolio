@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Header from '../Header/header';
 import '../../styles/index.scss';
 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +27,8 @@ const Layout = ({ children }) => {
         <footer className="has-text-centered">
           © {new Date().getFullYear()}, Built with
           {` `}
+          <FontAwesomeIcon icon={faHeart} /> and
+          {` `}
           <a href="https://www.gatsbyjs.org">
             Gatsby <FontAwesomeIcon icon={faCoffee} />
           </a>
@@ -40,4 +42,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default Layout;
