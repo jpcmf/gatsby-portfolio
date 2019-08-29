@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+
+import "@fortawesome/fontawesome-svg-core/styles.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
-
-import Img from "gatsby-image";
 
 import { faGithub, faTwitter, faMedium, faLinkedin, faBehance, faStackOverflow, faStrava } from "@fortawesome/free-brands-svg-icons";
 
