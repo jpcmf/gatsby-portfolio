@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import Layout from '../components/layout';
-import SEO from "../components/seo";
-import Card from '../components/card';
+import Layout from '../components/Layout';
+import SEO from "../components/SEO";
+import Card from '../components/Card';
 import Title from '../components/Title';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -94,4 +94,3 @@ Projects.propTypes = {
 }
 
 export default Projects;
-
