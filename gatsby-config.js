@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,12 +21,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `JPCMF Front-end Developer and UI Designer`,
+        name: `Portfolio JPCMF`,
         short_name: `JPCMF`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        theme_color: `#ff7f50`,
+        display: `standalone`,
         icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
