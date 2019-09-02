@@ -5,3 +5,19 @@ a {
 .photo {
   margin: 40px auto 30px;
 }
+
+.container {
+  &__wrapper {
+    display: flex;
+    height: calc(100vh - 52px);
+    flex-direction: column;
+
+    main {
+      flex: 1;
+    }
+  }
+}
+
+footer {
+  padding: 20px 0;
+}

@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="container">
+      <div className="container container__wrapper">
         <main>{children}</main>
         <footer className="has-text-centered">
           © {new Date().getFullYear()}, Built with
